@@ -9,5 +9,11 @@ The prototype was implemented by simulating patient data with the Python program
 
 The results demonstrated that Apache Kafka can efficiently process large amounts of data, and a similar system could be utilized in healthcare. Future development should consider, for example, GDPR-compliant security requirements to enable the adoption of the prototype in healthcare applications. 
 
+## Prototype
+In this thesis I developed a prototype using **Apache Kafka** for real-time patient data collection and analysis. The prototype operates as follows:
+1. ``producer.py`` simulates patient data every 5 seconds and sends it to Apache Kafka.
+2. Apache Kafka receives the data and stores it to ``potilastieto-events`` topic.
+3. ``consumer.py`` reads the data from the topic and sends it to InfluxDB database as a Point-object.
+4. InfluxDB is integrated with Grafana allowing the data to be seamlessly visualized on a real-time dashboard.
 ![prototype flowchart](https://github.com/user-attachments/assets/5b3d5efe-a8c0-425a-8de2-e603bf96d192)
 
