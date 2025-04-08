@@ -7,11 +7,11 @@ def deserialize_message(message):
     return json.loads(message.decode("utf-8"))
 
 
-token = "zxS8u7r59b5_Xt8hANEwtya0Q-Vv2QallPaHctXh-cH7Kb7V30SsVyX36xJut2iS-oMTcA_9m--91qCIOtJZQQ=="
-org = "Opinnäytetyö"
-host = "https://eu-central-1-1.aws.cloud2.influxdata.com"
+token = ""
+org = ""
+host = ""
 client = InfluxDBClient3(host=host, token=token, org=org)
-database = "kafka-potilastiedot"
+database = ""
 
 consumer = KafkaConsumer(
     "potilastiedot-events",
