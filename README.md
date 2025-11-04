@@ -1,7 +1,7 @@
 # Bachelor's thesis
 [Real-time patient data collection and analysis using the Apache Kafka platform](https://www.theseus.fi/handle/10024/881694)
 
-## Built using
+## Built with
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white)
