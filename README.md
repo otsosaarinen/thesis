@@ -1,7 +1,5 @@
 # Bachelor's thesis
-
-## Real-time patient data collection and analysis using the Apache Kafka platform
-[Read my thesis here](https://www.theseus.fi/handle/10024/881694)
+[Real-time patient data collection and analysis using the Apache Kafka platform](https://www.theseus.fi/handle/10024/881694)
 
 ## Built using
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
