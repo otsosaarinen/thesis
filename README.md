@@ -1,7 +1,14 @@
-# Real-time patient data collection and analysis using the Apache Kafka platform
+# Bachelor's thesis
 
+## Real-time patient data collection and analysis using the Apache Kafka platform
 [Read my thesis here](https://www.theseus.fi/handle/10024/881694)
 
+## Built using
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white)
+![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
+  
 ## Abstract
 Apache Kafka is a platform designed for processing large volumes of data and data streams. This thesis examined the architecture of Apache Kafka, the principles of event streaming platforms, and the benefits and challenges of realtime analytics in modern society. Additionally, the aim was to develop a prototype that enables real-time collection and analysis of patient data using the Apache Kafka platform. 
 
